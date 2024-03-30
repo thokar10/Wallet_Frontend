@@ -27,7 +27,7 @@ const ResetPasswordPage = () => {
       if (!errorMessage) {
         message.error(e);
       } else {
-        message.error("failed");
+        message.error(errorMessage);
       }
     }
   };
@@ -52,7 +52,7 @@ const ResetPasswordPage = () => {
                   label="OTP"
                   name="otp"
                   rules={[
-                    { required: true, message: "Please input your email!" },
+                    { required: true, message: "Please input your otp!" },
                   ]}
                 >
                   <Input />

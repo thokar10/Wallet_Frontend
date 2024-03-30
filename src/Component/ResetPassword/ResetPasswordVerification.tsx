@@ -29,7 +29,7 @@ const ResetPasswordVerification = () => {
       if (!errorMessage) {
         message.error(e);
       } else {
-        message.error("failed");
+        message.error(errorMessage);
       }
     }
   };

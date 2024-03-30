@@ -19,5 +19,23 @@
   background-color: whitesmoke;
 }
 .balance {
-  box-shadow: 2px 2px 5px 5px aliceblue;
+}
+.AmountEnteredBox {
+  position: absolute;
+}
+.ALL :hover {
+  transition: all;
+  transform: translateY(0.2px);
+  color: red;
+}
+
+input:focus {
+  box-shadow: 1px 1px 5px 5px skyblue;
+}
+input {
+  height: 30px;
+}
+.dashboard {
+  border-radius: 5px;
+  background-color: black;
 }
